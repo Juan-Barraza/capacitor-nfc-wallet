@@ -1,0 +1,71 @@
+{
+  "api": {
+    "name": "NfcWalletPlugin",
+    "slug": "nfcwalletplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "isNfcSupport",
+        "signature": "() => Promise<{ supported: boolean; enabled: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ supported: boolean; enabled: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "isnfcsupport"
+      },
+      {
+        "name": "setActiveCard",
+        "signature": "(options: { lastFour: string; expiry: string; cardId: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ lastFour: string; expiry: string; cardId: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setactivecard"
+      },
+      {
+        "name": "startSession",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "startsession"
+      },
+      {
+        "name": "endSession",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "endsession"
+      },
+      {
+        "name": "getSessionStatus",
+        "signature": "() => Promise<{ isActive: boolean; hasCard: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ isActive: boolean; hasCard: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getsessionstatus"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
