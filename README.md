@@ -9,13 +9,13 @@ NFC HCE payment plugin for MyDigitalWallet
 To use npm
 
 ```bash
-npm install capacitor-nfc-wallet
+npm install github:Juan-Barraza/capacitor-nfc-wallet
 ````
 
 To use yarn
 
 ```bash
-yarn add capacitor-nfc-wallet
+yarn add github:Juan-Barraza/capacitor-nfc-wallet
 ```
 
 Sync native files
